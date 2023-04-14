@@ -3,9 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /* header (h1)*/
+header {
+    background-color: black; /* Placeholder bg for now */
+    padding: 15px;
+}
+
+h1 {
+    color: yellow; /* for now */
+    font-size: 80px; /* for now */
+}
+
+/* dark/light theme toggle */
 
 /* body main ul p (?) */
 
@@ -16,7 +28,10 @@
 /* search Btn/on:hover */
 
 /* dropdown bar (class/id) */
+
 /* Dropdown (class/id) */
+
+/* checkbox styles for genre/category/platform/etc */
 
 /* search bar (class/id) */
 
