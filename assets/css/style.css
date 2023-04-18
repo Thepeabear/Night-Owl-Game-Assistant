@@ -17,25 +17,55 @@ h1 {
     font-size: 80px; /* for now */
 }
 
+span {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    border: solid 3px black;
+}
+
+/* search Btn/on:hover */
+button {
+    padding: 1px 7px;
+}
+
+button:hover {
+    background-color: green; /* for now */
+}
+
+/* searchBtn (id) */
+#searchBtn {
+    padding-right: 7px;
+}
+
+/* dropdown bar (class/id) */
+/* Dropdown (class/id) */
+#platforms {
+    padding-right: 7px;
+}
+
+/* search bar (class/id) */
+#searchBar {
+    padding-right: 7px;
+}
+
+#h2-results {
+    background-color: blue; /* for now */
+}
+
+#h2-rec {
+    background-color: green; /* for now */
+}
+
 /* dark/light theme toggle */
 
 /* body main ul p (?) */
 
 /* search bar (class) */
 /* search Btn (class) */
-.search {
+.search-box {
     display: flex;
     justify-content: end;
 }
 
-/* search Btn/on:hover */
-
-/* dropdown bar (class/id) */
-
-/* Dropdown (class/id) */
-
 /* checkbox styles for genre/category/platform/etc */
-
-/* search bar (class/id) */
-
-/* searchBtn (id) */
