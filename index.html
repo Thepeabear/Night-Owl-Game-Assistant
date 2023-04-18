@@ -1,42 +1,50 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Night Owl Game Assistant</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-        <title>Night Owl Game Assistant</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <body>
+    <header>
+      <div class="logo">
+        <!-- add logo image and/or text here -->
+      </div>
+      <h1>Night Owl Game Assistant</h1>
+      <nav>
+        <ul>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="search-box">
+        <form id="search-form">
+          <input type="text" placeholder="Search for games" />
+          <select id="filter-select">
+            <option value="all">All</option>
+            <option value="pc">PC</option>
+            <option value="console">Console</option>
+            <option value="mobile">Mobile</option>
+          </select>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <h1>Search Results</h1>
+      <div id="search-results">
+        <!-- search results will be added dynamically with JS -->
+      </div>
 
+      <h1>Recommended Games</h1>
+      <div id="recommended-games">
+        <!-- recommended games will be added dynamically with JS -->
+      </div>
+    </main>
 
-<body>
-    <div class="header">
-        <header>
-            <h1>Night Owl Game Assistant</h1>
-        </header>
-    </div>
-
-    <div class="#">
-        <div class="search_box">
-            <div class="dropdown">
-                <div class="default_option">All</div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-<script src="assets/js/script.js"></script>
-
-</body>
-    
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
