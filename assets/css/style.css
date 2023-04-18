@@ -21,9 +21,12 @@ h1 {
 
 /* body main ul p (?) */
 
-/* search bar (class/id) */
-
-/* search Btn (class/id) */
+/* search bar (class) */
+/* search Btn (class) */
+.search {
+    display: flex;
+    justify-content: end;
+}
 
 /* search Btn/on:hover */
 
