@@ -21,29 +21,42 @@
         </ul>
       </nav>
       <div class="search-box">
-        <form id="search-form">
-          <input type="text" placeholder="Search for games" />
+        <div id="searchBtn">
+          <button type="submit">Search</button>
+        </div>
+        <div id="platforms">
           <select id="filter-select">
+            <option value=""></option>
             <option value="all">All</option>
             <option value="pc">PC</option>
             <option value="console">Console</option>
             <option value="mobile">Mobile</option>
           </select>
-          <button type="submit">Search</button>
-        </form>
+        </div>
+        <div id="searchBar">
+          <form id="search-form">
+            <input type="text" placeholder="Search for games" />
+          </form>
+        </div>
       </div>
     </header>
     <main>
-      <h2>Search Results</h2>
-      <div id="search-results">
-        <!-- search results will be added dynamically with JS -->
-      </div>
-
-      <h2>Recommended Games</h2>
-      <div id="recommended-games">
-        <!-- recommended games will be added dynamically with JS -->
-      </div>
+      <span>
+        <h2 id="h2-results">Search Results</h2>
+          <p>Here are your results...</p>
+        <div id="search-results">
+          <!-- search results will be added dynamically with JS -->
+        </div>
+      </span>
+      <span>
+        <h2 id="h2-rec">Recommended Games</h2>
+          <p>If you would like to check these similiar games out...</p>
+        <div id="recommended-games">
+          <!-- recommended games will be added dynamically with JS -->
+        </div>
+      </span>
     </main>
+
 <script src="assets/js/script.js"></script>
 
 </body>
