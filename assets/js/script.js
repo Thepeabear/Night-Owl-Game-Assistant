@@ -1,6 +1,22 @@
 const apiKey = "f0aa44ff4b9b8f5166e12cadfd8d1658e871d572";
 const baseURL = "https://www.giantbomb.com/api/";
+var getReviews = function (reviews) {
+  const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "f48dd780damshf6554dc854efa2fp1b25dfjsn85a9e44222d9",
+      "X-RapidAPI-Host": "opencritic-api.p.rapidapi.com",
+    },
+  };
 
+  fetch(
+    "https://opencritic-api.p.rapidapi.com/reviews/game/463?skip=20",
+    options
+  )
+    .then((response) => response.json())
+    .then((response) => console.log(response))
+    .catch((err) => console.error(err));
+};
 // Function to get game recommendations based on platform and genre
 function getRecommendations(platform, genre) {
   // Make the API call
