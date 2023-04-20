@@ -6,24 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>Night Owl Game Assistant</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
     <header>
-      <div class="logo">
+      <img class="logo">
         <!-- add logo image and/or text here -->
-      </div>
+    </img>
       <h1>Night Owl Game Assistant</h1>
-      <nav>
-        <ul>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </nav>
       <div class="search-box">
-        <div id="searchBtn">
-          <button type="submit">Search</button>
-        </div>
         <div id="platforms">
           <select id="filter-select">
             <option value=""></option>
@@ -37,6 +30,9 @@
           <form id="search-form">
             <input type="text" placeholder="Search for games" />
           </form>
+        </div>
+        <div id="searchBtn">
+          <button class="button is-white" type="submit">Search</button>
         </div>
       </div>
     </header>
@@ -60,5 +56,9 @@
 <script src="assets/js/script.js"></script>
 
 </body>
+
+<footer>
+  <a id="aboutUs" href="#">About Us</a>
+</footer>
     
 </html>
