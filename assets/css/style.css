@@ -17,6 +17,15 @@ h1 {
     font-size: 80px; /* for now */
 }
 
+h2{
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 27px;
+    color: yellow; /* for now */
+}
+
 span {
     display: inline-block;
     width: 500px;
@@ -26,15 +35,13 @@ span {
 }
 
 footer {
-    display: flex;
     position: relative;
-    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: black; /* for now */
 }
 
-/* search Btn/on:hover */
-button {
-    padding: 1px 7px;
-}
+/* search Btn/on:hover, bulma.io selectors */
 
 button:hover {
     background-color: green; /* for now */
@@ -42,7 +49,7 @@ button:hover {
 
 #aboutUs {
     display: flex;
-    vertical-align: bottom;
+    justify-content: space-around;
 }
 
 /* searchBtn (id) */
