@@ -103,4 +103,24 @@ button:hover {
     justify-content: start;
 }
 
+/* @media screen and (min-width: 768px) {
+    .is-mobile {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .is-tablet {
+        background-color: blue;
+    }
+    
+}
+
+@media screen and (min-width: 1215px) {
+    .is-desktop {
+        background-color: red;
+    }
+    
+} */
+
 /* checkbox styles for genre/category/platform/etc */
