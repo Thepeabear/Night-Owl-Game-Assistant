@@ -1,4 +1,7 @@
 /* Universal Selectors */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tilt+Prism&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +18,7 @@ header {
 h1 {
     color: yellow; /* for now */
     font-size: 80px; /* for now */
+    font-family: "Tilt Prism", sans-serif;
 }
 
 h2{
