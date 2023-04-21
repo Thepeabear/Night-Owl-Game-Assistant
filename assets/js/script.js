@@ -1,5 +1,5 @@
-const apiKey = "f0aa44ff4b9b8f5166e12cadfd8d1658e871d572";
-const baseURL = "https://www.giantbomb.com/api/";
+const apiKey1 = "will be used";
+const baseURL1 = "will be used";
 var getReviews = function (reviews) {
   const options = {
     method: "GET",
@@ -17,15 +17,19 @@ var getReviews = function (reviews) {
     .then((response) => console.log(response))
     .catch((err) => console.error(err));
 };
+const apiKey2 = "f0aa44ff4b9b8f5166e12cadfd8d1658e871d572";
+const baseURL2 = "https://www.giantbomb.com/api/";
+const $ = jQuery;
+
 // Function to get game recommendations based on platform and genre
 function getRecommendations(platform, genre) {
   // Make the API call
   $.ajax({
     type: "GET",
     url:
-      baseURL +
+      baseURL2 +
       "games/?api_key=" +
-      apiKey +
+      apiKey2 +
       "&format=json&field_list=name,image&filter=platforms:" +
       platform +
       ",genres:" +
@@ -49,7 +53,7 @@ function getRecommendations(platform, genre) {
         );
       }
     },
-    error: function (xhr, status, error) {
+    error: function (error) {
       console.log("Error: " + error.message);
     },
   });
