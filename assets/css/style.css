@@ -1,11 +1,18 @@
 /* Universal Selectors */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@100;300;400;800&family=Tilt+Neon&family=Tilt+Prism&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+}
+
+html{
+    background-image: linear-gradient(rgb(29, 123, 230), rgb(134, 2, 46), black);
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 /* header (h1)*/
@@ -15,26 +22,32 @@ header {
 }
 
 h1 {
-    color: yellow; /* for now */
+    color: rgb(38, 187, 164); /* for now */
     font-size: 70px; /* for now */
     font-family: "Tilt Prism", sans-serif;
 }
 
 h2{
     font-size: 27px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: white;
 }
 
 h3 {
     font-family: "Tilt Prism", sans-serif;
     font-size: 27px;
-    color: yellow; /* for now */
+    color: rgb(38, 187, 164); /* for now */
 }
 
 span {
     display: inline-block;
     width: 500px;
     vertical-align: top;
-    border: solid 3px black;
+    border: solid 3px rgb(0, 0, 0);
     margin: 20px;
 }
 
@@ -78,11 +91,13 @@ button:hover {
 }
 
 #h2-results {
-    background-color: blue; /* for now */
+    background-color: rgb(29, 123, 230); /* for now */
+    color: black;
 }
 
 #h2-rec {
-    background-color: green; /* for now */
+    background-color: rgb(134, 2, 46); /* for now */
+    color: black;
 }
 
 /* INSERT ID CSS FOR INDIVIDUAL PERSONS LINKS */
