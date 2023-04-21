@@ -1,7 +1,6 @@
 /* Universal Selectors */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tilt+Prism&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,7 @@ header {
 
 h1 {
     color: yellow; /* for now */
-    font-size: 80px; /* for now */
+    font-size: 70px; /* for now */
     font-family: "Tilt Prism", sans-serif;
 }
 
@@ -26,6 +25,7 @@ h2{
 }
 
 h3 {
+    font-family: "Tilt Prism", sans-serif;
     font-size: 27px;
     color: yellow; /* for now */
 }
@@ -51,9 +51,9 @@ button:hover {
     background-color: green; /* for now */
 }
 
-#aboutUs {
-    display: flex;
-    justify-content: space-around;
+.aboutUs {
+    vertical-align: bottom;
+    margin: 0px 50px;
 }
 
 /* searchBtn (id) */
@@ -85,9 +85,16 @@ button:hover {
     background-color: green; /* for now */
 }
 
-/* dark/light theme toggle */
+/* INSERT ID CSS FOR INDIVIDUAL PERSONS LINKS */
 
 /* body main ul p (?) */
+
+.logo {
+    width: 100px;
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+}
 
 /* search bar (class) */
 /* search Btn (class) */
