@@ -35,7 +35,7 @@ span {
 }
 
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: black; /* for now */
@@ -60,7 +60,12 @@ button:hover {
 /* dropdown bar (class/id) */
 /* Dropdown (class/id) */
 #platforms {
-    padding-right: 7px;
+    padding-right: 12px;
+    margin: 0px -30px;
+}
+
+#filter-select {
+    width: 25%;
 }
 
 /* search bar (class/id) */
