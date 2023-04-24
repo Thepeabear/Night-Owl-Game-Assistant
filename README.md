@@ -20,3 +20,27 @@ LIGHT/DARK THEME buttons to change the colors.
 
 OTHER games by in this genre/creator.
 
+## Description
+
+This web application is designed to display video game titles that are desired and/or similiar to the searched criteria.
+
+![alt text](./assets/images/NightOwlzImg.png)
+
+## Usage
+
+Upon opening the application, as the user, you will notice a search bar on the top left of the page. You can input any video game title you want the information to, including which platform(s), and a list of titles will appear along with a list of similiar titles.
+
+## Technologies Used (?)
+
+*(?)*
+
+## Credit
+
+*Image*
+*Giant Bomb*
+*Open Critic*
+*RAWG.IO*
+
+## License
+
+*MIT(?)*
