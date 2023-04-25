@@ -1,103 +1,106 @@
 /* Universal Selectors */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@100;300;400;800&family=Tilt+Neon&family=Tilt+Prism&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@100;300;400;800&family=Tilt+Neon&family=Tilt+Prism&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-html{
-    background-image: linear-gradient(rgb(29, 123, 230), rgb(134, 2, 46), black);
-    background-repeat: no-repeat;
-    height: 100%;
+html {
+  background-image: linear-gradient(rgb(29, 123, 230), rgb(134, 2, 46), black);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed; /* Keep the background image fixed in place */
 }
 
 /* header (h1)*/
 header {
-    background-color: black; /* Placeholder bg for now */
-    padding: 15px;
+  background-color: black; /* Placeholder bg for now */
+  padding: 15px;
 }
 
 h1 {
-    color: rgb(38, 187, 164); /* for now */
-    font-size: 70px; /* for now */
-    font-family: "Tilt Prism", sans-serif;
+  color: rgb(38, 187, 164); /* for now */
+  font-size: 70px; /* for now */
+  font-family: "Tilt Prism", sans-serif;
 }
 
-h2{
-    font-size: 27px;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
+h2 {
+  font-size: 27px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
-p{
-    color: white;
+p {
+  color: white;
 }
 
 h3 {
-    font-family: "Tilt Prism", sans-serif;
-    font-size: 27px;
-    color: rgb(38, 187, 164); /* for now */
+  font-family: "Tilt Prism", sans-serif;
+  font-size: 27px;
+  color: rgb(38, 187, 164); /* for now */
 }
 
 span {
-    display: inline-block;
-    width: 500px;
-    vertical-align: top;
-    border: solid 3px rgb(0, 0, 0);
-    margin: 20px;
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  border: solid 3px rgb(0, 0, 0);
+  margin: 20px;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: black; /* for now */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black; /* for now */
 }
 
 /* search Btn/on:hover, bulma.io selectors */
 
 button:hover {
-    background-color: green; /* for now */
+  background-color: green; /* for now */
 }
 
 .aboutUs {
-    vertical-align: bottom;
-    margin: 0px 50px;
+  vertical-align: bottom;
+  margin: 0px 50px;
 }
 
 /* searchBtn (id) */
 #searchBtn {
-    padding-right: 7px;
+  padding-right: 7px;
 }
 
 /* dropdown bar (class/id) */
 /* Dropdown (class/id) */
 #platforms {
-    padding-right: 12px;
-    margin: 0px -30px;
+  padding-right: 12px;
+  margin: 0px -30px;
 }
 
 #filter-select {
-    width: 25%;
+  width: 25%;
 }
 
 /* search bar (class/id) */
 #searchBar {
-    padding-right: 7px;
+  padding-right: 7px;
 }
 
 #h2-results {
-    background-color: rgb(29, 123, 230); /* for now */
-    color: black;
+  background-color: rgb(29, 123, 230); /* for now */
+  color: black;
 }
 
 #h2-rec {
-    background-color: rgb(134, 2, 46); /* for now */
-    color: black;
+  background-color: rgb(134, 2, 46); /* for now */
+  color: black;
 }
 
 /* INSERT ID CSS FOR INDIVIDUAL PERSONS LINKS */
@@ -105,17 +108,17 @@ button:hover {
 /* body main ul p (?) */
 
 .logo {
-    width: 100px;
-    display: flex;
-    position: relative;
-    margin-top: 25px;
+  width: 100px;
+  display: flex;
+  position: relative;
+  margin-top: 25px;
 }
 
 /* search bar (class) */
 /* search Btn (class) */
 .search-box {
-    display: flex;
-    justify-content: start;
+  display: flex;
+  justify-content: start;
 }
 
 /* @media screen and (min-width: 768px) {
