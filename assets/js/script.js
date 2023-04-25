@@ -1,8 +1,9 @@
+const $ = jQuery;
 const apiKey1 = "will be used";
 const baseURL1 = "will be used";
 const btnEl = document.querySelector(".btn");
 const searchForm = document.getElementById("input-form");
-const recommendations = document.getElementById("recommended-games");
+const recommendations = $("#recommended-games");
 var getReviews = function (reviews) {
   const options = {
     method: "GET",
@@ -31,7 +32,6 @@ searchForm.addEventListener("submit", (event) => {
 });
 const apiKey2 = "f0aa44ff4b9b8f5166e12cadfd8d1658e871d572";
 const baseURL2 = "https://www.giantbomb.com/api/";
-const $ = jQuery;
 
 function getSearchResults(genre) {
   // Construct the API URL
@@ -48,6 +48,7 @@ function getSearchResults(genre) {
       const results = data.results;
       // Clear any existing recommendations from the page
       $("#search-results").empty();
+      recommendations.empty();
       // Create a new container div for the game list
       const resultListEl = $("<div>").addClass("game-list");
       // Create an ordered list for the games
@@ -61,16 +62,17 @@ function getSearchResults(genre) {
         gameEl.append(nameEl, imgEl);
         olEl.append(gameEl);
       }
-      for (let i = 3; i < 7; i++) {
+      for (let i = 4; i < 7; i++) {
         const gameEl = $("<li>").addClass("game");
         const nameEl = $("<h2>").text(results[i].name);
         const imgEl = $("<img>").attr("src", results[i].image.small_url);
-        console.log(nameEl);
         gameEl.append(nameEl, imgEl);
         ol2El.append(gameEl);
       }
+      console.log(ol2El);
       resultListEl.append(olEl);
-      recommendations.append(ol2El);
+      recommendations.append(ol2El[0]);
+      console.log(recommendations);
 
       // Append the resultListEl to #search-results
       $("#search-results").append(resultListEl);
