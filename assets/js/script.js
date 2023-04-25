@@ -27,7 +27,7 @@ searchForm.addEventListener("submit", (event) => {
   event.preventDefault();
   let inputEl = document.getElementById("input");
   console.log(inputEl.value);
-  getSearchResults(inputEl);
+  getSearchResults(inputEl.value);
 });
 const apiKey2 = "f0aa44ff4b9b8f5166e12cadfd8d1658e871d572";
 const baseURL2 = "https://www.giantbomb.com/api/";
